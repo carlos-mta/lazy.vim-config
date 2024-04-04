@@ -28,7 +28,7 @@ return {
   },
 
   -- disable trouble
-  { "folke/trouble.nvim",      enabled = false },
+  { "folke/trouble.nvim", enabled = false },
 
   -- override nvim-cmp and add cmp-emoji
   {
@@ -125,8 +125,6 @@ return {
         "javascript",
         "json",
         "lua",
-        "markdown",
-        "markdown_inline",
         "python",
         "query",
         "regex",
@@ -190,6 +188,23 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
+        "djlint",
+        "docker-compose-language-service",
+        "dockerfile-language-server",
+        "eslint-lsp",
+        "gofumpt",
+        "goimports",
+        "gomodifytags",
+        "gopls",
+        "hadolint",
+        "impl",
+        "json-lsp",
+        "jsonlint",
+        "lua-language-server",
+        "prettier",
+        "svelte-language-server svelte",
+        "typescript-language-server",
+        "yaml-language-server yamlls",
       },
     },
   },
